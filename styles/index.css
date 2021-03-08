@@ -15,7 +15,7 @@ body {
     margin: 0;
     padding: 0;
    }
-   
+
 .posts-btn .home-btns{
     background-color: yellow;
     padding: 5px 15px;
@@ -25,18 +25,18 @@ body {
 
 
 
- #createPost .post-modal-content {
+ #createPost .modal-content {
     width: 85%;
     margin: 3% auto;
   }
   
-  #createPost .post-modal-content .create-btn-tab .btn {
+  #createPost .modal-content .create-btn-tab .btn {
     padding: 5px 25px;
     border-radius: 0;
   }
-  #createPost .post-modal-content .contents {
+  #createPost .modal-content .contents {
     min-height: 300px;
   }
-  #createPost .post-modal-content .create-btn-tab {
+  #createPost .modal-content .create-btn-tab {
     text-align: center;
   }
