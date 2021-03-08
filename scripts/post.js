@@ -51,11 +51,11 @@ document.addEventListener(
       var commentText = document.getElementById("commentBox").value.trim();
       if (commentText !== "") {
         // Logic to post latest comment at the top
-        document.getElementById("commentsWrapper").innerHTML =
+        document.getElementById("comments-wrapper").innerHTML =
           "<p>" +
           commentText +
           "</p>" +
-          document.getElementById("commentsWrapper").innerHTML;
+          document.getElementById("comments-wrapper").innerHTML;
       }
       // Emptying the value after adding the comment to All comments section
       document.getElementById("commentBox").value = "";
