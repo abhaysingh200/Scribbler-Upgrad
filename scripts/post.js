@@ -1,17 +1,16 @@
 
+
+var titleEle = document.getElementById("postTitle");
+var contentEle = document.getElementById("postContent");
+var authorEle = document.getElementById("author");
+var likeNo = 0;
+
 window.onload = function() {
   titleEle.innerHTML = sessionStorage.getItem("postTitle");
   contentEle.innerHTML = sessionStorage.getItem("postContent");
   authorEle.innerHTML = sessionStorage.getItem("author");
 };
 
-function hasClass(elem, className) {
-    return elem.classList.contains(className);
-  }
-var titleEle = document.getElementById("postTitle");
-var contentEle = document.getElementById("postContent");
-var authorEle = document.getElementById("author");
-var likeNo = 0;
 
 document.addEventListener(
   "click",
@@ -64,3 +63,8 @@ document.addEventListener(
   },
   false
 );
+
+
+function hasClass(elem, className) {
+    return elem.classList.contains(className);
+  }
