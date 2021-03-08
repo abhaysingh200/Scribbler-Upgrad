@@ -1,0 +1,50 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../images/background.jpg");
+    
+ 
+}
+.posts-btn .home-btns{
+    height: 50px;
+    width: 160px;
+    padding: 10px;
+    border-radius: 2px;
+    
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 100%;
+    background: yellow;
+    color:black;
+    float: center;                  
+    
+    margin: 10px 10px 0px 0px;
+    font-family:  Helvetica, sans-serif, Arial;
+   }
+
+ .posts-btn{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+ }
+
+
+ #createPost .post-modal-content {
+    width: 85%;
+    margin: 3% auto;
+  }
+  
+  #createPost .post-modal-content .create-btn-tab .btn {
+    padding: 5px 25px;
+    border-radius: 0;
+  }
+  #createPost .post-modal-content .contents {
+    min-height: 300px;
+  }
+  #createPost .post-modal-content .create-btn-tab {
+    text-align: center;
+  }
